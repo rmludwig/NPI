@@ -6,7 +6,12 @@
 
 * {
     /* To apply to all elements*/
-    border: 1px solid red !important;
+    /*border: 1px solid red !important; */
+}
+
+hr {
+    border: 1px white solid;
+    margin: 5px 10px 5px 10px;
 }
 
 .bgimg {
@@ -18,22 +23,54 @@
     opacity: 1;
 }
 
-// REAL STUFF ABOVE
+.npi-container {
+    border: 5px #999999 solid;
+    /*border: 5px solid rgb(255, 255, 255);
+    border: 5px solid rgba(255, 255, 255, 1);
+    -webkit-background-clip: padding-box; /* for Safari */
+    /*background-clip: padding-box; */        /* for IE9+, Firefox 4+, Opera, Chrome */
+    /*padding: 0px;
+    margin: 0px;
+    display:block;*/
+    border-radius: 10px;
+    background-color: rgba(200, 200, 200, .25);
+    /*opacity: 0.4;*/
+}
 /*
-body {
-    font-family: 'Open Sans Condensed', Arial, Helvetica, sans-serif;
-    font-weight: 300;
+.npi-background {
+    background-color: #444444;
+    display:block;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    opacity: 0.4;
+}*/
+
+.npi-text {
+    color: #CCCCCC;
 }
 
-h1 {
-    color: #00BB44;
+
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    background-color: black !important;
+}
+
+h2 {
+    color: #FFFFFF;
+
 }
 
 h3 {
-    color: #BB0505;
-    //background-color: #CCCCCC;
+    font-weight: 500;
 }
 
+
+/*REAL STUFF ABOVE*/
+/*
 ul {
     list-style-type: none;
 }
