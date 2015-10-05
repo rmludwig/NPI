@@ -107,10 +107,10 @@ a:focus, a:active, a:hover {
 /* Large desktops and laptops */
 @media (min-width: 1200px) {
     .npi-container-text {
-        height: 380px;
+        height: 355px;
     }
     .npi-container-img {
-        height: 380px;
+        height: 355px;
     }
     .npi-logo {
         margin-top: 10px;
@@ -120,10 +120,10 @@ a:focus, a:active, a:hover {
 /* Landscape tablets and medium desktops */
 @media (min-width: 992px) and (max-width: 1199px) {
     .npi-container-text {
-        height: 400px;
+        height: 375px;
     }
     .npi-container-img {
-        height: 400px;
+        height: 375px;
     }
     .npi-padding {
         height: 300px;
