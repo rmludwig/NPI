@@ -15,7 +15,7 @@ body {
     background-color: black !important;
 }
 
-h2 {
+h2, h3 {
     color: #FFFFFF;
 
 }
@@ -23,6 +23,21 @@ h2 {
 hr {
     border: 1px white solid;
     margin: 5px 10px 5px 10px;
+}
+
+img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+
+a:focus, a:active, a:hover {
+    outline: none !important;
+    text-decoration: none;
+}
+
+.glyphicon-white {
+    color: #FFFFFF;
 }
 
 .bgimg {
@@ -37,10 +52,16 @@ hr {
 .npi-container {
     border: 4px #999999 solid;
     border-radius: 10px;
-    background-color: rgba(200, 200, 200, .25);
-    display: table;
+    background-color: rgba(200, 200, 200, .20);
     /* Check media queries below for adjustments*/
 }
+
+.npi-text a {
+    color: #EEEEEE;
+    border-bottom: 1px solid;
+    cursor: pointer;
+}
+
 
 .npi-text {
     color: #CCCCCC;
@@ -52,12 +73,16 @@ hr {
 
 .npi-img {
     margin: 10px;
+    width: 90%%;
 }
 
 .npi-active:hover {
-    color: green;
+    color: #24F5AB;
+    border-bottom: 1px solid;
+    text-decoration: none;
 }
 
+/* MEDIA QUERIES FOR RESPONSIVE DESIGN */
 /* Wide Screen Large desktops and laptops */
 @media (min-width: 1600px) {
     .npi-padding {
@@ -82,26 +107,26 @@ hr {
 /* Large desktops and laptops */
 @media (min-width: 1200px) {
     .npi-container-text {
-        height: 350px;
+        height: 380px;
     }
     .npi-container-img {
-        height: 350px;
+        height: 380px;
     }
     .npi-logo {
-        margin-top: 15px;
+        margin-top: 10px;
     }
 }
 
 /* Landscape tablets and medium desktops */
 @media (min-width: 992px) and (max-width: 1199px) {
     .npi-container-text {
-        height: 370px;
+        height: 400px;
     }
     .npi-container-img {
-        height: 370px;
+        height: 400px;
     }
     .npi-padding {
-        height: 330px;
+        height: 300px;
     }
     .npi-logo {
         margin-top: 15px;
