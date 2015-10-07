@@ -61,7 +61,6 @@ $(document).ready(function(){
 
 	function buildAlbumCorp(){
 		for(image in images_corp.files) {
-			console.log(images_corp.files[image].source);
 			$("#album-list-corp").append("<div class='item'><img src='image/album_corp/" + images_corp.files[image].source + "' alt='' /></div>");
 		}
 	}

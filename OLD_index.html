@@ -1,0 +1,411 @@
+<html>
+
+<head>
+
+<title>Holiday Traditions</title>
+
+<meta name="description" content="We provide holiday lighting for home or business customers in the St. Charles, MO area.">
+
+<meta name="keywords" content="holiday, lighting, holiday lighting, saint charles, mo, st charles, christmas, lights">
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+<script language="JavaScript">
+
+<!--
+
+function MM_preloadImages() { //v3.0
+
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+
+}
+
+
+
+function MM_findObj(n, d) { //v4.0
+
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+
+  if(!x && document.getElementById) x=document.getElementById(n); return x;
+
+}
+
+
+
+function MM_nbGroup(event, grpName) { //v3.0
+
+  var i,img,nbArr,args=MM_nbGroup.arguments;
+
+  if (event == "init" && args.length > 2) {
+
+    if ((img = MM_findObj(args[2])) != null && !img.MM_init) {
+
+      img.MM_init = true; img.MM_up = args[3]; img.MM_dn = img.src;
+
+      if ((nbArr = document[grpName]) == null) nbArr = document[grpName] = new Array();
+
+      nbArr[nbArr.length] = img;
+
+      for (i=4; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+
+        if (!img.MM_up) img.MM_up = img.src;
+
+        img.src = img.MM_dn = args[i+1];
+
+        nbArr[nbArr.length] = img;
+
+    } }
+
+  } else if (event == "over") {
+
+    document.MM_nbOver = nbArr = new Array();
+
+    for (i=1; i < args.length-1; i+=3) if ((img = MM_findObj(args[i])) != null) {
+
+      if (!img.MM_up) img.MM_up = img.src;
+
+      img.src = (img.MM_dn && args[i+2]) ? args[i+2] : args[i+1];
+
+      nbArr[nbArr.length] = img;
+
+    }
+
+  } else if (event == "out" ) {
+
+    for (i=0; i < document.MM_nbOver.length; i++) {
+
+      img = document.MM_nbOver[i]; img.src = (img.MM_dn) ? img.MM_dn : img.MM_up; }
+
+  } else if (event == "down") {
+
+    if ((nbArr = document[grpName]) != null)
+
+      for (i=0; i < nbArr.length; i++) { img=nbArr[i]; img.src = img.MM_up; img.MM_dn = 0; }
+
+    document[grpName] = nbArr = new Array();
+
+    for (i=2; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+
+      if (!img.MM_up) img.MM_up = img.src;
+
+      img.src = img.MM_dn = args[i+1];
+
+      nbArr[nbArr.length] = img;
+
+  } }
+
+}
+
+//-->
+
+</script>
+
+</head>
+
+
+
+<body bgcolor="#FFFFFF" text="#000000" onLoad="MM_preloadImages('images/homeOver.gif','images/servicesOver.gif','images/residentialOver.gif','images/commercialOver.gif','images/picturesOver.gif','images/contactOver.gif')">
+
+<table width="100%" border="0" height="56">
+
+  <tr> 
+
+    <td height="29" width="78%"> 
+
+      <div align="center"><img src="images/leftside.gif" width="169" height="112"><img src="images/header1.gif" width="289" height="112"><img src="images/rightside.gif" width="169" height="112"> 
+
+        <!-- STEP ONE: Paste this code into the BODY of your HTML document  -->
+
+        <script language="JavaScript">
+
+
+
+<!-- This script and many more are available free online at -->
+
+<!-- The JavaScript Source!! http://javascript.internet.com -->
+
+
+
+<!-- Begin
+
+var day_description = "Christmas";
+
+var day_before = "Christmas Eve";
+
+
+
+var today = new Date();
+
+var year = today.getYear();
+
+if ((navigator.appName == "Microsoft Internet Explorer") && (year < 2000))		
+
+year="19" + year;
+
+if (navigator.appName == "Netscape")
+
+year=1900 + year;
+
+var date = new Date("December 25, " + year);
+
+var diff = date.getTime() - today.getTime();
+
+var days = Math.floor(diff / (1000 * 60 * 60 * 24));
+
+
+
+document.write("<center><h3>")
+
+
+
+if (days > 1)
+
+document.write("There are only " + (days+1) + " days until " + day_description + "!");
+
+else if (days == 1)
+
+document.write("Tommorrow is " + day_before  + "!");
+
+else if (days == 0)
+
+document.write("Today is " + day_before + "!");
+
+else if (days == -1)
+
+document.write("It's " + day_description + "!");
+
+else if (days < -1)
+
+document.write(day_description + " was " + ((days+1)*-1) + (days < -2 ? " days" : " day") + " ago this year!");
+
+document.write("</h3></center>");
+
+//  End -->
+
+</script>
+
+      </div>
+
+    </td>
+
+  </tr>
+
+</table>
+
+<table width="100%" border="0" height="899">
+  <tr>
+
+    <td width="12%" height="951"> 
+      <table border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF" bordercolor="#FFFFFF">
+
+        <tr> 
+
+          <td><a href="index.htm" onClick="MM_nbGroup('down','group1','Home','',1)" onMouseOver="MM_nbGroup('over','Home','images/homeOver.gif','',1)" onMouseOut="MM_nbGroup('out')"><img name="Home" src="images/home.gif" border="0" onLoad=""></a></td>
+
+        </tr>
+
+        <tr> 
+
+          <td><a href="services.htm" onClick="MM_nbGroup('down','group1','Services','',1)" onMouseOver="MM_nbGroup('over','Services','images/servicesOver.gif','',1)" onMouseOut="MM_nbGroup('out')"><img name="Services" src="images/services.gif" border="0" onLoad=""></a></td>
+
+        </tr>
+
+        <tr> 
+
+          <td><a href="residential.htm" onClick="MM_nbGroup('down','group1','Residential','',1)" onMouseOver="MM_nbGroup('over','Residential','images/residentialOver.gif','',1)" onMouseOut="MM_nbGroup('out')"><img name="Residential" src="images/residential.gif" border="0" onLoad=""></a></td>
+
+        </tr>
+
+        <tr> 
+
+          <td><a href="commercial.htm" onClick="MM_nbGroup('down','group1','Commercial','',1)" onMouseOver="MM_nbGroup('over','Commercial','images/commercialOver.gif','',1)" onMouseOut="MM_nbGroup('out')"><img name="Commercial" src="images/commercial.gif" border="0" onLoad=""></a></td>
+
+        </tr>
+
+        <tr> 
+
+          <td><a href="pictures.htm" onClick="MM_nbGroup('down','group1','Pictures','',1)" onMouseOver="MM_nbGroup('over','Pictures','images/picturesOver.gif','',1)" onMouseOut="MM_nbGroup('out')"><img name="Pictures" src="images/pictures.gif" border="0" onLoad=""></a></td>
+
+        </tr>
+
+        <tr> 
+
+          <td><a href="contact.htm" onClick="MM_nbGroup('down','group1','Contact','',1)" onMouseOver="MM_nbGroup('over','Contact','images/contactOver.gif','',1)" onMouseOut="MM_nbGroup('out')"><img name="Contact" src="images/contact.gif" border="0" onLoad=""></a></td>
+
+        </tr>
+
+      </table>
+
+      <p><font size="2">&quot;Thank you so much. Our home looks beautiful. What 
+
+        a great job. It was a treat to come home and see it look so nice.&quot; 
+
+        </font></p>
+
+      <p><font size="2"> Elizabeth Sparks </font></p>
+
+      <p><font size="2">St. Charles</font> </p>
+
+      <p>&nbsp;</p>
+
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+
+      <p>&nbsp;</p>
+
+      <p>&nbsp;</p>
+
+      <p>&nbsp;</p>
+
+      <p>&nbsp;</p>
+
+      <p>&nbsp;</p>
+
+      <p>&nbsp;</p>
+
+      <p>&nbsp;</p>
+
+      </td>
+
+    <td width="88%" height="951"> 
+      <table width="95%" border="0" height="948" align="center">
+        <tr> 
+
+          <td height="275"> 
+
+            <h3 align="center">Holiday Traditions Is the local source for all 
+
+              your Holiday Lighting and Decorating needs!</h3>
+
+            <h3 align="center"><i>&quot;We can't guarantee a White Christmas, 
+              but we can deliver a Bright Christmas !&quot;</i></h3>
+            <table width="75%" border="0" align="center">
+              <tr>
+                <td width="55%"> 
+                  <p align="center"><font color="#FF0000"><b>Watch our TV Commercial!</b></font><br>
+                    <a href="commercial.mp4" target="_blank">Quicktime</a> ...... 
+                    <a href="commercial.mpg">Windows</a> <br>
+                  </p>
+                </td>
+                <td width="45%"> 
+                  <p align="center"><b><font color="#FF0000">Watch our Channel 
+                    4 Video!</font></b><br>
+                    <a href="NVEExport.mp4" target="_blank">Quicktime Only<br>
+                    </a> Be patient - Large File</p>
+                  </td>
+              </tr>
+            </table>
+            <p>Holiday Traditions is a full service Holiday Lighting provider. 
+
+              We service the counties of St. Charles, MO and St. Louis MO. We 
+
+              have the skills and tools to make your home or business beautiful 
+
+              and festive for the Holidays. Don't go another year trying to figure 
+
+              out which bulb is burnt out, or why the lights just won't stay lit. 
+
+              Let <a href="index.htm" target="_top">Holiday Traditions</a> do 
+
+              the work for you while you spend your precious time celebrating 
+
+              the Holidays with friends and family.</p>
+
+            <p>Please feel free to check our entire site for answers to other 
+
+              questions. And you can always contact us by E-mail: <a href="mailto:info@northpoleindustries.com">info@northpoleindustries.com</a>, phone or mail!</p>
+
+            <p><b>Frequently asked questions:</b></p>
+
+            <p><i><b>How much does it cost to light my home?</b></i></p>
+
+            <p>That all depends on the lighting you select, the style of your 
+
+              home and several other variables. On average, a ranch home will 
+
+              cost between $400-$700, and a two story home between $450-$1000. 
+
+              Again this all depends on the style of lights you select and how 
+
+              much you want to light up! These prices are for the Purchase Option, 
+
+              see Services for more information.</p>
+
+            <p><i><b>How far in advance do we need to get a consultation or schedule 
+
+              our job?</b></i></p>
+
+            <p>We start doing Consultations the middle of September, and we usually 
+
+              are booked full by the beginning of November! Don't wait until the 
+
+              last minute. Our installation calendar fills fast. </p>
+
+            <p><i><b>Do we need to be here for the installation?</b></i></p>
+
+            <p>No. Our installers are fully trained and will use the design map 
+
+              you selected during your Design Consultation.</p>
+
+            <p><i><b>How do you install the lights?</b></i></p>
+
+            <p>We use professional clips and specialty items. All the clips we 
+
+              use will not hurt your home in any way. They will be removed with 
+
+              the lights during take down.</p>
+
+            <p><i><b>When will you take my display down?</b></i></p>
+
+            <p>As long as the weather is cooperative, we try to have everyone 
+
+              of our customers down by the end of January. </p>
+
+            <p><i><b>What forms of payment do you accept?</b></i></p>
+
+            <p>We accept cash, checks, money orders, Mastercard and Visa. Payment 
+
+              is due at the finish of installation, not upon takedown.</p>
+
+            <p><i><b>Why do you donate 5% of your net profits to the &quot;Toys 
+
+              For Tots&quot; campaign?</b></i></p>
+
+            <p>We truly believe in Christmas and all the wonders of the season. 
+              We also believe every child should have a gift on Christmas morning, 
+              regardless of their financial situation. Last year we gave over 
+              $2000.00 to the &quot;Toys For Tots&quot; campaign.</p>
+            </td>
+
+        </tr>
+
+      </table>
+
+    </td>
+
+  </tr>
+
+</table>
+
+<p align="center"><a href="/images/toysfortotsphotoop.jpg"><img src="/images/toysfortotsphotoopthumbnail.jpg" width="180" height="106" border="0"></a></p>
+
+<p align="center"><img src="images/TinyTrain.gif" width="120" height="40"></p>
+
+<p align="center"><b>&#169; 2007 North Pole Industries</b></p>
+
+            </body>
+
+</html>
+

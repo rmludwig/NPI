@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Holiday Traditions</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <!-- Bootstrap customization
+        Success! Your configuration has been saved to https://gist.github.com/5f31eaf03d9e4e77a39f and can be revisited here at http://getbootstrap.com/customize/?id=5f31eaf03d9e4e77a39f for further customization.
+    -->
+    <link href="css/style.css" rel="stylesheet" type="text/css"></link>
+    <style>
+        body {
+            //background-color: #000000;
+        }
+        /* Add CSS here when possible */
+    </style>
+    <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/album.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+</head>
+
+<body>
+<!-- Start of main screen -->
+    <img src="image/back.jpg" class="bgimg">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5 text-left img-left npi-logo">
+                <img src="image/ht-logo3.png" class="img-responsive">
+            </div>
+            <div class="col-md-7 text-center text-uppercase">
+                <!-- empty -->
+            </div>            
+        </div>
+        <div class="row">
+            <div class="col-md-12 npi-padding">
+                <!-- Empty Row for padding -->
+            </div>
+        </div>
+        <div class="row row-eq-height">
+            <div class="col-md-4 text-center">
+                <div class="npi-container npi-container-text">
+                    <div class="npi-text">
+                        <h2><a href="#" class="npi-active" data-toggle="modal" data-target="#modal3">Our Services</a></h2>
+                        <hr>
+                        <h3><a class="npi-active" data-toggle="modal" data-target="#modal2">About Us</a></h3>
+                        <p>
+                            Holiday Traditions is a full service Holiday Lighting provider. We service the counties of St. Charles, MO and St. Louis MO. We have the skills and tools to make your home or business beautiful and festive for the Holidays.</p>
+                            <span style="color: #EEEEEE; font-size: 120%;">Call us at 636-922-4435</span>.</p>
+                        <ul class="text-left npi-link">
+                            <li><a class="npi-active" data-toggle="modal" data-target="#modal1">Frequently Asked Questions</a></li>
+                            <li><a class="npi-active" data-toggle="modal" data-target="#modal4">References</a></li>
+                            <!-- Revisit media queries if this is added back in -->
+                            <!-- <li><a class="npi-active" data-toggle="modal" data-target="#modal5">Estimates</a></li> -->
+                            <li><a class="npi-active" data-toggle="modal" data-target="#modal5">Contact Us / Estimates</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 text-center">
+                <div class="npi-container npi-container-img">
+                    <div class="npi-text">
+                        <h2><a href="#" class="npi-active" data-toggle="modal" data-target="#modal7">Residential</a></h2>
+                        <hr>
+                        <div class="npi-img">
+                            <img src="image/res.JPG" class="img-responsive">
+                        </div>
+                        <p><a href="#" class="npi-active" data-toggle="modal" data-target="#modal6">View Album</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 text-center">
+                <div class="npi-container npi-container-img">
+                    <div class="npi-text">
+                        <h2><a href="#" class="npi-active" data-toggle="modal" data-target="#modal8">Commercial</a></h2>
+                        <hr>
+                        <div class="npi-img">
+                            <img src="image/com.JPG" class="img-responsive">
+                        </div>
+                        <p><a href="#" class="npi-active" data-toggle="modal" data-target="#modal9">View Album</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <br>
+                <hr>
+                <br>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-2">
+                <!-- Facebook Etc... -->
+                <a target="_blank" title="follow us on facebook" href="http://www.facebook.com/Holiday-Traditions-145735717440"><img alt="follow us on facebook" src="image/badgefacebook.png" border=0 class="img-responsive center-block"></a>
+            </div>
+            <div class="col-md-2">
+                <!-- Facebook Etc... -->
+                <a target="_blank" title="Toys For Tots" href="http://toysfortots.org"><img style="padding-top: 15px;" alt="Toys for Tots" src="image/TinyTrain.gif" border=0 class="img-responsive center-block"></a>
+            </div>
+            <div class="col-md-4 text-center">
+                <div id="days-till"><!-- js adds --></div>
+            </div>
+            <div class="col-md-2">
+                <a href="#" class="npi-active" data-toggle="modal" data-target="#modal10"><img alt="check Angies List" src="image/angie.jpeg" border=0 class="img-responsive center-block"></a>
+            </div>
+            <div class="col-md-2">
+                <p class="text-center">Website developed by <a target="_new" href="http://www.rmlsn.net/">RMLSN.NET</a></p>
+                <p class="text-center">&copy; Holiday Traditions 2015</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <hr>
+                <br>
+            </div>
+        </div>
+
+        </div>
+    </div>
+<!-- End of main screen -->
+
+<!-- Modal 1 [FAQ] -->
+    <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Frequently Asked Questions</h4>
+                </div>
+
+                <div class="modal-body">
+                    <p>
+                        <i><b>How much does it cost to light my home?</b></i>
+                    </p>
+                    <p>
+                        That all depends on the lighting you select, the style of your home and several other variables. On average, a ranch home will cost between $400-$700, and a two story home between $450-$1000. Again this all depends on the style of lights you select and how much you want to light up! These prices are for the Purchase Option, see Services for more information.
+                    </p>
+                    <p>
+                        <i><b>How far in advance do we need to get a consultation or schedule our job?</b></i>
+                    </p>
+                    <p>
+                        We start doing Consultations the middle of September, and we usually are booked full by the beginning of November! Don't wait until the last minute. Our installation calendar fills fast.
+                    </p>
+                    <p>
+                        <i><b>Do we need to be here for the installation?</b></i>
+                    </p>
+                    <p>
+                        No. Our installers are fully trained and will use the design map you selected during your Design Consultation.
+                    </p>
+                    <p>
+                        <i><b>How do you install the lights?</b></i>
+                    </p>
+                    <p>
+                        We use professional clips and specialty items. All the clips we use will not hurt your home in any way. They will be removed with the lights during take down.
+                    </p>
+                    <p>
+                        <i><b>When will you take my display down?</b></i>
+                    </p>
+                    <p>
+                        As long as the weather is cooperative, we try to have everyone of our customers down by the end of January.
+                    </p>
+                    <p>
+                        <i><b>What forms of payment do you accept?</b></i>
+                    </p>
+                    <p>
+                        We accept cash, checks, money orders, Mastercard and Visa. Payment is due at the finish of installation, not upon takedown.
+                    </p>
+                    <p>
+                        <i><b>Why do you donate 5% of your net profits to the &quot;Toys For Tots&quot; campaign?</b></i>
+                    </p>
+                    <p>
+                        We truly believe in Christmas and all the wonders of the season. We also believe every child should have a gift on Christmas morning, regardless of their financial situation.
+                    </p>
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+<!-- Modal 2 [About Us] -->
+    <div class="modal fade" id="modal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Full Service Holiday Lighting Provider</h4>
+                </div>
+
+                <div class="modal-body">
+                    <p>
+                        <b>Holiday Traditions is the local source for all your holiday lighting and decorating needs!</b>
+                    </p>
+                    <p>
+                        <b><i>"We can't guarantee a white Christmas, but we can deliver a BRIGHT Christmas!</i></b>
+                    </p>
+                    <p>
+                        Holiday Traditions is a full service Holiday Lighting provider. We service the counties of St. Charles, MO and St. Louis MO. We have the skills and tools to make your home or business beautiful and festive for the Holidays. Don't go another year trying to figure out which bulb is burnt out, or why the lights just won't stay lit. Let Holiday Traditions do the work for you while you spend your precious time celebrating the Holidays with friends and family.
+                    </p>
+                    <p>
+                        Please feel free to check our entire site for answers to other questions. And you can always contact us by E-mail: <a href="mailto:info@northpoleindustries.com">info@northpoleindustries.com</a>, phone or mail!
+                    </p>
+                    <p>
+                        <b>Holiday Traditions</b><br>
+                        44 David Drive<br>
+                        St.Charles, MO 63304<br><br>
+                        <b>636-922-4435</b><br>
+                        <a href="mailto:info@northpoleindustries.com">info@northpoleindustries.com</a>
+                    </p>
+                    <p>&nbsp;</p>
+                    <p>
+                        <b>Holiday Traditions also truly believes in the Spirit of Christmas. That's why we donate 5% of our net profits each year to the &quot;Toys For Tots&quot; campaign. Thank you to all our customers who helped us donate to this worthy cause!</b>
+                    </p>
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+<!-- Modal 3 [Our Services] -->
+    <div class="modal fade" id="modal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">How Holiday Traditions Is Different Than The Rest</h4>
+                </div>
+
+                <div class="modal-body">
+                    <p>
+                        <i>Holiday Traditions Provides everything (except the gifts) to let you enjoy the Holidays without the hassle of installing your Christmas Lighting!</i>
+                    </p>
+                    <p>
+                        <b>Purchase our lighting :</b>
+                    </p>
+                    <p>
+                        Our Holiday Traditions lighting is the best option for several reasons. Many Companies will only lease you their lights in an effort to keep all the lighting for themselves, leaving you with nothing more than the bill. Holiday Traditions sells you our Commercial Grade custom cut lighting, complete with a Lifetime Guarantee as long as you use us. After the first year pricing (which is more than the second year pricing due to initial setup and cost of lights), our purchase package is usually more affordable than leasing from other companies, plus you <i>Own the lights!</i> We can still store your lights as an option, and again you will never have to buy another bulb from us to fix any of your lighting as long as you continue to use us. You can even add lights yearly and come out far better than many leasing options.
+                    </p>
+                    <p>
+                        <b>We apologize but Holiday Traditions does not do any of the following:</b>
+                    </p>
+                    <p>
+                        Pest control, mole hunting, lawn mowing, construction and remodeling, or any other type of business. All the pictures on our website are of our own work, not a cookie cutter picture from a corporate franchise office. Most companies add Christmas lighting to their business as an after thought, or a sideline business to keep their employees working in the winter months. Buying a franchsise or a license will not make a company knowledgable about Holiday Lighting! Holiday Traditions believes that Christmas lighting is a speciality and cannot truly be done by a company who's main focus is not Holiday Lighting. That is why we spend all year planning and learning about the newest techniques and products on the market. Holiday Traditions is the only Company in the St. Louis Metro area committed to specializing in Holiday Lighting only. Would you visit a massage therapist for a root canal? Then why use a company who doesn't have the skill, knowledge and expertise when they are applying 100's or possibly 1000's of watts and or lights to your most valuable investment, your home? Call today to experience the difference!
+                    </p>
+                    <p>
+                        Trust a local company who does not have to answer to a franchise office, but only answers to you, our customers!
+                    </p>
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+<!-- Modal 4 [References] -->
+    <div class="modal fade" id="modal4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Our Satisfied Customers</h4>
+                </div>
+
+                <div class="modal-body">
+                    <p>
+                        <b>Mark and Carol Johnson</b> - St. Charles, MO
+                    </p>
+
+                    <p style="margin-left: 20px">
+                        <i>"We are emailing to confirm our install week of 11/2/2015 for Labor to install our Holiday Lighting and Decorations.  You always do such a great job every year!  We understand that businesses usually only hear from those who may have complaints or may not be totally satisfied but we wanted to take a moment and say how pleased and happy we always are with our Lighting and Service every year.  We want to &quot;thank&quot; you and your employees for doing such a wonderful job and being part of our Christmas season!  We very much enjoy our Holiday Traditions Lighting each year and look forward to seeing you soon!"</i>
+                    </p>
+                    <p>
+                        <b>Steve Stygar</b> - Stygar Family of Funeral Services.
+                    </p>
+                    <p style="margin-left: 20px">
+                        <i>"We opened our new funeral home in Florissant in January of 1995. After a few hectic years I got an itch to do something to the building for the holidays. We decorated the interior but I wanted to show a holiday spirit on the exterior. We needed Christmas Lights. I knew exactly what I wanted, an elegant perimeter of the roof. Simple and elegant. Rob Smith, who I knew from the Florissant Jaycees, sent me a flier and I was intrigued. I knew what I wanted to do but just did not have the resources. Rob gave me a bid and I still procrastinated for 2 years. Finally I decided to take the plunge and haven&#146;t looked back since.<br>
+                        This service was just what I needed. Rob knew the product, did the installation and it was perfect. He notifies me in September about the annual fee and an installation date. I send him a check and in November the lights are up. He maintains the lights, if one is out I call him and he replaces it. At the end of the season he comes and takes the lights down. Best of all he stores them for the next year.<br>
+                        This will be our 10th season with Holiday Traditions and I couldn’t be happier."</i>
+                    </p>
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+<!-- Modal 5 [Estimates] -->
+    <div class="modal fade" id="modal5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">For Estimates</h4>
+                </div>
+
+                <div class="modal-body">
+                    <p>
+                        For estimates contact us by phone at <b>636-922-4435</b> or E-mail: <b><a href="mailto:info@northpoleindustries.com">info@northpoleindustries.com</a></b>.
+                    </p>
+                    <p>
+                        <b>Holiday Traditions</b><br>
+                        44 David Drive<br>
+                        St.Charles, MO 63304<br><br>
+                        <b>636-922-4435</b><br>
+                        <a href="mailto:info@northpoleindustries.com">info@northpoleindustries.com</a>
+                    </p>
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+<!-- Modal 6 [Album] -->
+    <div class="modal fade" id="modal6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <!-- <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button> -->
+                    <h4 class="modal-title">Residential Photo Album</h4>
+                </div>
+
+                <div class="modal-body">
+                    <div id="npi-carousel" class="carousel slide">
+                        <!-- Indicators
+                        <ol class="carousel-indicators">
+                            <li data-target="#npi-carousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#npi-carousel" data-slide-to="1"></li>
+                            <li data-target="#npi-carousel" data-slide-to="2"></li>
+                        </ol>
+                         -->
+                        <!-- Wrapper for slides -->
+                        <div id="album-list" class="carousel-inner">
+                            <!-- Loaded by album.js -->
+                        </div>
+                        <!-- Controls -->
+                        <a class="left carousel-control" href="#npi-carousel" data-slide="prev">
+                            <span style="font-size: 300%" class="icon-prev"></span>
+                        </a>
+                        <a class="right carousel-control" href="#npi-carousel" data-slide="next">
+                            <span style="font-size: 300%" class="icon-next"></span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="modal-footer">
+                    <p class="text-left">All photos are Holiday Traditions original work!</p>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- Modal 7 [Residential] -->
+    <div class="modal fade" id="modal7" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Residential Services</h4>
+                </div>
+
+                <div class="modal-body">
+                    <p><b>Service We Provide</b>:</p>
+                    <p>
+                        Outlining the gutters, peaks, ridges and valleys of homes. Perimeter lighting of walkways and driveways. Tree and bush lighting. Window outlining. Lit wreaths, garland and other accent items. Just about anything to do with making your home festive for the holidays!
+                    </p>
+                    <p>
+                        When you purchase your lights from Holiday Traditions, you receive the highest quality commercial grade lighting available, and a Lifetime Guarantee as long as you continue to use Holiday Traditions. You will never have to worry about broken lights, blown fuses, weather damage or anything else ever again.
+                    </p>
+                    <p><b>Design Consultation</b>:</p>
+                    <p>
+                        Our experienced, Holiday Traditions designers evaluate and map your home, address your desires, give advice and suggestions on a Christmas lighting and decorating plan that accents the features of your home. We provide everything you need in order to make your home beautiful for the Holidays.
+                    </p>
+                    <p><b>Installations:</b></p>
+                    <p>
+                        Each installation is unique&#150;by custom cutting for your specific lighting needs, we eliminate the excess and sloppiness of retail bought lighting. The Clips we use allow us to arrange your lighting to flow seamlessly from gutters to roofs without changing the bulb orientation. All the clips and fasteners that we use are non-evasive, are taken down with your lighting at the end of the season, and will not damage your property by any means.
+                    </p>
+                    <p><b>Maintenance:</b></p>
+                    <p>
+                        Throughout the season, we will monitor homes to make sure displays are without problems. Our customers can also call us anytime with a problem and we will have it fixed or replaced within 48 hours.
+                    </p>
+                    <p><b>Take down and storage:</b></p>
+                    <p>
+                        At the end of each season, we will return to your home to remove your lighting and decorations. We will label and mark your lighting to ensure ease of set up next year and if you elect for us to store your lights, we will take them with us to be stored in our climate controlled warehouse.
+                    </p>
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+<!-- Modal 8 [Commercial] -->
+    <div class="modal fade" id="modal8" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Commercial Services</h4>
+                </div>
+
+                <div class="modal-body">
+                    <p><b>Facts on Holiday Lighting:</b></p>
+                    <ul>
+                      <li>96% of Americans celebrate Christmas</li>
+                      <li>Christmas Lighting is synonymous with the Holidays</li>
+                      <li>Holiday Lighting can draw additional attention to your business</li>
+                      <li>Showing Holiday pride can solidify your existing customer relations</li>
+                      <li>Customers and potential customers will remember beautiful display's and lighting long after the Holidays</li>
+                    </ul>
+                    <p>
+                        A full page advertisement in a local direct mailer, to 100k homes, sells for more than $2000, depending on the market. Advertising has a 2-5% response rate if your lucky. In contrast, with Holiday Traditions, you have more than 30 days of your entire building acting as a giant billboard. 96% of the people who pass your location will relate to your Holiday display, and will visibly notice where you are and what you do. The value of Holiday Lighting is far more effective than any other form of advertising!
+                    </p>
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+<!-- Modal 9 [Album Corp] -->
+    <div class="modal fade" id="modal9" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <!-- <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button> -->
+                    <h4 class="modal-title">Commercial Photo Album</h4>
+                </div>
+
+                <div class="modal-body">
+                    <div id="npi-carousel2" class="carousel slide">
+                        <!-- Indicators
+                        <ol class="carousel-indicators">
+                            <li data-target="#npi-carousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#npi-carousel" data-slide-to="1"></li>
+                            <li data-target="#npi-carousel" data-slide-to="2"></li>
+                        </ol>
+                         -->
+                        <!-- Wrapper for slides -->
+                        <div id="album-list-corp" class="carousel-inner">
+                            <!-- Loaded by album.js -->
+                        </div>
+                        <!-- Controls -->
+                        <a class="left carousel-control" href="#npi-carousel2" data-slide="prev">
+                            <span style="font-size: 300%" class="icon-prev"></span>
+                        </a>
+                        <a class="right carousel-control" href="#npi-carousel2" data-slide="next">
+                            <span style="font-size: 300%" class="icon-next"></span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="modal-footer">
+                    <p class="text-left">All photos are Holiday Traditions original work!</p>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- Modal 10 [Angies List] -->
+    <div class="modal fade" id="modal10" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Angies List</h4>
+                </div>
+
+                <div class="modal-body">
+                    <img src="image/Angies List Award.JPG" />
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        // When needed add inner html (inside dom creation) scripting here
+    </script>
+    
+</body>
+</html>
+
+<script>
+    // When needed add post html scripting here 
+</script>
