@@ -82,6 +82,23 @@ a:focus, a:active, a:hover {
     text-decoration: none;
 }
 
+.npi-footer-top {
+    margin: 15px 5px 15px 5px;
+}
+
+.npi-footer-bot {
+    margin: 0px 5px 15px 5px;
+}
+
+.npi-no-border {
+    border: 0px;
+
+}
+
+.npi-ref {
+    padding: 0px;
+}
+
 /* MEDIA QUERIES FOR RESPONSIVE DESIGN */
 /* Wide Screen Large desktops and laptops */
 @media (min-width: 1600px) {
@@ -133,8 +150,8 @@ a:focus, a:active, a:hover {
     }
 }
 
-/* Portrait tablets and small desktops */
-@media (min-width: 768px) and (max-width: 991px) {
+/* Stacked windows */
+@media (max-width: 991px) {
     .npi-container-text {
         height: 100%;
         margin-top: 15px;
@@ -146,6 +163,13 @@ a:focus, a:active, a:hover {
     .npi-padding {
         height: 1px;
     }
+    .npi-ref {
+        padding: 10px;
+    }
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
     .npi-logo {
         margin-top: 340px;
     }
@@ -153,17 +177,6 @@ a:focus, a:active, a:hover {
 
 /* Landscape phones and portrait tablets */
 @media (max-width: 767px) {
-    .npi-container-text {
-        height: 100%;
-        margin-top: 15px;
-    }
-    .npi-container-img {
-        height: 100%;
-        margin-top: 15px;
-    }
-    .npi-padding {
-        height: 1px;
-    }
     .npi-logo {
         margin-top: 250px;
     }
@@ -171,17 +184,6 @@ a:focus, a:active, a:hover {
 
 /* Portrait phones and smaller */
 @media (max-width: 480px) {
-    .npi-container-text {
-        height: 100%;
-        margin-top: 15px;
-    }
-    .npi-container-img {
-        height: 100%;
-        margin-top: 15px;
-    }
-    .npi-padding {
-        height: 1px;
-    }
     .npi-logo {
         margin-top: 150px;
     }
