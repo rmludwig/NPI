@@ -23,7 +23,7 @@ $(document).ready(function(){
 
 	if (days > 1) {
 		//document.write("There are only " + (days+1) + " days until " + day_description + "!");
-		$("#days-till").append("<h3>There are only " + (days+1) + " days until " + day_description + "!</h3>");
+		$("#days-till").append("<h3>" + (days+1) + " days until " + day_description + "!</h3>");
 	}
 	else if (days == 1) {
 		//document.write("Tommorrow is " + day_before  + "!");
@@ -39,7 +39,7 @@ $(document).ready(function(){
 	}
 	else if (days < -1) {
 		//document.write(day_description + " was " + ((days+1)*-1) + (days < -2 ? " days" : " day") + " ago this year!");
-		$("#days-till").append("<h3>" . day_description + " was " + ((days+1)*-1) + (days < -2 ? " days" : " day") + " ago this year!</h3>");
+		$("#days-till").append("<h3>" . day_description + " was " + ((days+1)*-1) + (days < -2 ? " days" : " day") + " ago!</h3>");
 	}
 
 	//document.write("</h3></center>");
